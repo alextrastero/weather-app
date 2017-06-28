@@ -1,0 +1,24 @@
+{
+  "name": "wheather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nwb build-preact-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-preact-app",
+    "test": "nwb test-preact",
+    "test:coverage": "nwb test-preact --coverage",
+    "test:watch": "nwb test-preact --server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0"
+  },
+  "devDependencies": {
+    "nwb": "0.17.x"
+  }
+}
